@@ -1,0 +1,17 @@
+algoritmo "Acumulador"
+
+var
+  acumulador: real
+
+inicio
+  acumulador <- 1
+  escreval("Acumulador antes do repetidor: ", acumulador)
+  
+  enquanto acumulador < 3 faca
+    escreval("Acumulador no repetidor: ", acumulador)
+    acumulador <- acumulador + 1
+  fimenquanto
+
+  escreval("Acumulador depois do repetidor: ", acumulador)
+
+fimalgoritmo

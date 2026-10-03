@@ -1,0 +1,17 @@
+algoritmo "VerificaChuva"
+
+var
+  chovendo: logico
+
+inicio
+  escreval("Está chovendo?")
+  leia(chovendo)
+  escreval(chovendo)
+
+  se (chovendo = verdadeiro) entao
+    escreval("Vou levar o guarda-chuva")
+  fimse
+
+  escreval("Saindo de casa...")
+
+fimalgoritmo
