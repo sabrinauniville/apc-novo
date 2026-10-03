@@ -1,0 +1,27 @@
+algoritmo "MenuLanchonete2"
+
+var
+  opcao: inteiro
+
+inicio
+  escreval("1- Hambúrguer | 2 - Pizza | 3 - Salada")
+  leia(opcao)
+  escreval(opcao)
+
+  se (opcao = 1 ) entao
+    escreval("Escolhido o Hambúrguer.")
+  senao
+    se (opcao = 2 ) entao
+      escreval("Escolhida a Pizza.")
+    senao
+      se (opcao = 3 ) entao
+        escreval("Escolhida a Salada.")
+      senao
+        escreval("Opção inválida.")
+      fimse
+    fimse
+  fimse
+
+  escreval("Fim.")
+
+fimalgoritmo

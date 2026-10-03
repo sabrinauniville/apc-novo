@@ -1,4 +1,4 @@
-algoritmo "MenuLanchonete2"
+algoritmo "MenuLanchonete3"
 
 var
   opcao: inteiro
