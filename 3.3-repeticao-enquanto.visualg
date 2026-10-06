@@ -1,0 +1,17 @@
+algoritmo "ContadorEnquanto"
+
+var
+  contador: inteiro
+  limitador: inteiro
+
+inicio
+  contador <- 1
+  limitador <- 3
+
+ // Executa o bloco enquando a expressão permanece verdadeira
+  enquanto (contador <= limitador) faca // Enquanto o contador for menor ou igual ao limitador
+    escreval("Contador: ", contador)
+    contador <- contador + 1 // Incrementa a variável de controle
+  fimenquanto
+
+fimalgoritmo

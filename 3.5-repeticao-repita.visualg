@@ -1,0 +1,17 @@
+algoritmo "ContadorRepita"
+
+var
+  contador: inteiro
+  limitador: inteiro
+
+inicio
+  contador <- 1
+  limitador <- 4
+
+  repita
+   // Primeiro executa o bloco e incrementa a variável e depois valida a condição
+    escreval("Contador: ", contador)
+    contador <- contador + 1
+  ate (contador >= limitador) // Repete até o contador for menor ou igual ao limitador
+
+fimalgoritmo

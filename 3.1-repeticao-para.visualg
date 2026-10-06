@@ -1,0 +1,16 @@
+algoritmo "ContadorPara"
+
+var
+  contador: inteiro
+  limitador: inteiro
+
+inicio
+  limitador <- 3
+
+  // Para contador de valor 1 até chegar ao valor do limitador
+  para contador de 1 ate limitador faca
+    escreval("Contador: ", contador)
+    // Não precisa da variável de controle
+  fimpara
+
+fimalgoritmo
