@@ -1,0 +1,31 @@
+algoritmo "ExemploDeEscopo"
+
+var
+  valorGlobal: inteiro
+
+  // Procedimento com parâmetro 
+procedimento mostrarValor(novoValor: inteiro)
+  var
+    valorProcedimento: inteiro
+
+  inicio
+    escreval("valorProcedimento antes de atribuir valor: ", valorProcedimento)
+    valorProcedimento <- novoValor
+    escreval("valorProcedimento depois de atribuir valor: ", valorProcedimento)
+
+    escreval("valorGlobal chamado dentro do procedimento: ", valorGlobal)
+    escreval("valorProcedimento: ", valorProcedimento)
+fimprocedimento
+
+inicio
+  escreval("valorGlobal antes de atribuir valor: ", valorGlobal)
+  valorGlobal <- 10
+  escreval("valorGlobal depois de atribuir valor: ", valorGlobal)
+
+  // escreval("valorProcedimento fora da procedimento antes da chamada: ", valorProcedimento)
+
+  // Chamada do Procedimento sem parâmetros
+  mostrarValor(2)
+
+  // escreval("valorProcedimento fora do procedimento depois da chamada: ", valorProcedimento)
+fimalgoritmo

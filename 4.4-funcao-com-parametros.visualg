@@ -1,0 +1,24 @@
+algoritmo "ExemploDeFuncaoComParametros"
+
+var
+  resultadoCasoA: inteiro
+  resultadoCasoB: inteiro
+  resultadoCasoC: inteiro
+
+// Função com parâmetro e retorno
+  funcao somar(numeroA:inteiro, numeroB: inteiro): inteiro
+    inicio  
+      retorne numeroA + numeroB
+  fimfuncao
+
+inicio
+// 3 chamadas da mesma função
+  resultadoCasoA <- somar(1, 1)
+  resultadoCasoB <- somar(5, 10)
+  resultadoCasoC <- somar(100, 1)
+
+  // Apresentação dos resultados
+  escreval("Resultado do caso A: ", resultadoCasoA)
+  escreval("Resultado do caso A: ", resultadoCasoB)
+  escreval("Resultado do caso A: ", resultadoCasoC)
+fimalgoritmo

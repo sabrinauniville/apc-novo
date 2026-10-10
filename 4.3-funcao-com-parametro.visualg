@@ -1,0 +1,31 @@
+algoritmo "ExemploDeFuncaoComParametro"
+
+var
+  aprovado: logico
+  entrada: caracter
+  resultadoFinal: logico
+
+  // Função com parâmetro e retorno de variável
+funcao foiAprovado(resultadoAprovacao:logico): logico
+  var
+    texto: logico
+
+  inicio
+    se resultadoAprovacao = "sim" entao
+      texto <- verdadeiro
+    senao
+      texto <- falso
+    fimse
+    retorne texto
+fimfuncao
+
+inicio
+  // Entrada
+  leia(entrada) // Sim ou não para aprovação
+
+  //Processamento
+  resultadoFinal <- foiAprovado(entrada)
+
+  //Saída
+  escreval("Foi aprovado?: ", resultadoFinal)
+fimalgoritmo

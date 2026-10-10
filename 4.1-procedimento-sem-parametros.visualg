@@ -1,0 +1,12 @@
+algoritmo "ExemploProcedimentoSemParametro"
+
+var
+  // Procedimento sem parâmetro
+procedimento mostraMensagem()
+  inicio
+    escreval("Olá mundo")
+fimprocedimento
+
+inicio
+  mostraMensagem()
+fimalgoritmo
